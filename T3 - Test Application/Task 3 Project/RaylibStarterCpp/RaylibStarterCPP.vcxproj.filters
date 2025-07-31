@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Base Classes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tank Classes">
+      <UniqueIdentifier>{23664d27-34ad-4cf7-b6b3-059f5d0cefd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Classes">
+      <UniqueIdentifier>{bc0b009c-d995-475d-8dbb-f0dcc4664992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Tank Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TankGame.h">
+      <Filter>Tank Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Tank Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Tank Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Tank Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Defines.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneParent.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChild.h">
+      <Filter>Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Math Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Math Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2H.h">
+      <Filter>Math Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Math Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
